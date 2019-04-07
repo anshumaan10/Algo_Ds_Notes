@@ -5,22 +5,7 @@ at a time." The Activity Selection problem follows a Greedy approach.
 
 #include <stdio.h>
 
-// Function to compute the activities to be chosen
-void ActivitySelection(int start[], int finish[], int n)
-{
-    printf("Following activities are selected: ");
-    // Select the first activity
-    int i = 0;
-    printf("\n%d  ", i);
-    int j;
-    // if start time of current activity j is greater than or equal to previous activity chosen, select activity j
-    for (j = 1; j < n; j++) 
-    {
-        if (start[j] >= finish[i]) 
-        {
-            printf("%d  ", j);
-            i = j;
-        }
+// 
     }
 }
 

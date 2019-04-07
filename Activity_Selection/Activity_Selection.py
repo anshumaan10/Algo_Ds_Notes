@@ -5,12 +5,6 @@ at a time." The Activity Selection problem follows a Greedy approach.
 
 # Function to compute the activities to be chosen
 def activitySelection(s, f ): 
-    n = len(f)
-	print("Following activities are selected:")
-    i = 0
-	#First Activity is always selected
-    print(i)	
-    for j in range(0,n): 
         if s[j] >= f[i]: 	#We select only those activities whose starting time is greater than equal to
             print(j) 		#finishing time of previously selected activity.
             i = j 
